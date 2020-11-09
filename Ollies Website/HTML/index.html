@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Website</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- website logo -->
+            <img src="/img/logo-template.png" alt="website-logo" class="logo">
+            
+            <!-- website toggle menue -->
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="/img/toggle-menu.png" alt="toggle menu" class="menu" id="menu">
+                </a>
+            
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="/img/exit-btn.jpg" alt="exit.button"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></header/li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="/img/server-image.png" alt="server-img" class="server">
+
+            <h1>Web Hosting for the Modern Era</h1>
+            <p class="subhead">Go serverless and pay only for what you use.</p>
+            
+            <img src="/img/scroll.png" alt="scroll down" class="scroll-image hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="/img/file-image.png" alt="Calender icon">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit sunt a dolor nesciunt consectetur? Accusantium repellat ratione nisi maxime doloremque.
+                    </p>
+                </li>
+                <li>
+                    <img src="/img/file-image.png" alt="Calender icon">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit sunt a dolor nesciunt consectetur?
+                        Accusantium repellat ratione nisi maxime doloremque.
+                    </p>
+                </li>
+                <li>
+                    <img src="/img/file-image.png" alt="Calender icon">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit sunt a dolor nesciunt consectetur?
+                        Accusantium repellat ratione nisi maxime doloremque.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="/img/user1.png" alt="User testimonial picture">
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur optio deserunt harum blanditiis, distinctio illo ad vitae amet delectus quos similique eaque. Unde eligendi error harum quis nostrum fuga. Consectetur?
+                    </blockquote>
+                    <figcaption> Jane Doe </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="/img/user2.png" alt="User testimonial picture">
+                        <blockquote>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur optio deserunt harum blanditiis, distinctio
+                            illo ad vitae amet delectus quos similique eaque. Unde eligendi error harum quis nostrum fuga. Consectetur?
+                        </blockquote>
+                        <figcaption> John Doe</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Start your free trial now!</h2>
+        <!-- cta = action "used to style it" -->
+        <a href="#" class="cta">Get Started</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="images/logo-white.svg" alt="Logo">
+                </a>
+                <p class="address">Melrose Place, 90210<br>USA</p>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- javascript element -->
+
+    <script>
+
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+        });
+
+        exit.addEventListener('click', function (e) {
+                nav.classList.add('hide-mobile');
+                e.preventDefault();
+            });
+
+    </script>
+
+</body>
+</html>
