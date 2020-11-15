@@ -1,0 +1,41 @@
+.topbanner {
+    background-color: rgb(31, 68, 99);
+
+}
+
+.bottombanner {
+    background-color: rgb(76, 93, 189);
+}
+body {
+    background-color: lightgrey;
+}
+
+.mycontent {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(31, 68, 99);
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(31, 68, 99);
+}
+body {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.logotext {
+    font-size: 2rem;
+    color: white;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.quote {
+    font-style: italic;
+    /* background-color: rgba(255, 255, 200, 0.301); */
+}
