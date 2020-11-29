@@ -8,4 +8,4 @@ Professional Framework Group Project
 /ProfessionalFramework/Computer_missues_page.html
 /ProfessionalFramework/Intellectual_property.html
 /ProfessionalFramework/Code_of_conduct.html
-/ProfessionalFramework/Accessibility_guidelines
+/ProfessionalFramework/Accessibility_guidelines.html
