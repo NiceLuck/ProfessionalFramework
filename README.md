@@ -1,11 +1,4 @@
 # ProfessionalFramework
 Professional Framework Group Project
 ## Welcome
-### Please name your page the same as the page below
-
-
-Data_protection.html <br>
-Computer_missues_page.html <br>
-Intellectual_property.html <br>
-Code_of_conduct.html <br>
-Accessibility_guidelines.html <br>
+### Pages are set up on the branch gp-pages, paste your content into myconent div
